@@ -56,3 +56,51 @@ main {
 .card i {
   margin-right: 0.5rem;
 }
+/*------------Steps------------*/
+.steps {
+  color: var(--gray1);
+}
+.steps .ingre h1,
+.intructions h1 {
+  /* color: var(--gray1); */
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.steps .ingredients .options {
+  display: flex;
+  flex-direction: column;
+}
+.ingredients {
+  line-height: 1.5rem;
+  /* color: var(--gray1); */
+}
+.ingredients h2 {
+  font-style: italic;
+  margin: 1rem 0;
+}
+.options .strong {
+  font-weight: bold;
+}
+
+.intructions div {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+.intructions div p:first-child {
+  flex: 0 0 15%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-self: start;
+}
+.intructions div p:last-child {
+  flex: 0 0 80%;
+  line-height: 1.3rem;
+}
