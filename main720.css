@@ -1,0 +1,23 @@
+@media screen and (min-width: 720px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .title section {
+    width: 60%;
+  }
+  .intro {
+    flex: 1 0 20%;
+    order: 2;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .steps {
+    flex: 1 0 60%;
+    margin-top: 1rem;
+  }
+}
