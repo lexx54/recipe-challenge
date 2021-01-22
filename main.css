@@ -1,0 +1,58 @@
+/*---------------------------------GENERAL------------------------------------*/
+:root {
+  --orange: #f29942;
+  --gray: #bdbdbd;
+  --gray1: #333333;
+}
+main {
+  padding: 0.5rem;
+}
+/*---------------------------------MAIN------------------------------------*/
+/*-------------title------------*/
+.title {
+}
+.title > img {
+  width: 100%;
+  border-radius: 10px;
+}
+.title section > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.title section > div {
+  display: flex;
+  padding: 1rem;
+}
+.title section > div > img {
+  align-self: baseline;
+  margin-right: 1rem;
+}
+/*------------Intro------------*/
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  margin: 1rem 0;
+}
+.card:first-child {
+  flex: 0 0 100%;
+}
+.card:first-child i {
+  color: var(--orange);
+}
+.card div p {
+  color: var(--gray);
+  font-size: 0.8rem;
+}
+.card:first-child div p:last-child {
+  color: var(--orange);
+}
+.card div p:last-child {
+  color: var(--gray1);
+}
+.card i {
+  margin-right: 0.5rem;
+}
