@@ -1,8 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital@0;1&display=swap");
 /*---------------------------------GENERAL------------------------------------*/
 :root {
   --orange: #f29942;
   --gray: #bdbdbd;
   --gray1: #333333;
+  --mont: "Montserrat", sans-serif;
+  --play: "Playfair Display", serif;
+}
+body {
+  font-family: var(--mont);
+}
+h1,
+h2 {
+  font-family: var(--play);
 }
 main {
   padding: 0.5rem;
@@ -78,7 +88,7 @@ main {
   font-style: italic;
   margin: 1rem 0;
 }
-.options .strong {
+.strong {
   font-weight: bold;
 }
 
